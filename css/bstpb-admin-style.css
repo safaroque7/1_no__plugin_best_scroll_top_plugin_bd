@@ -1,0 +1,78 @@
+.bstpb_main_area {
+  /* background: red; */
+  width: 1000px;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.bstpb_body_area {
+  width: 71%;
+  margin-right: 5%;
+  background: #fff;
+  padding: 10px;
+}
+
+.bstpb_sidebar {
+  width: 20%;
+  padding: 7px;
+  background: white;
+}
+
+.bstpb_author_profile {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border: 5px solid #bd5fff;
+  overflow: hidden;
+}
+
+.bstpb_author_profile img {
+  max-width: 100%;
+}
+
+.bstpb_body_area form input,
+.bstpb_body_area form label,
+.bstpb_body_area form small {
+  display: block;
+}
+
+.bstpb_body_area form label .radios {
+  display: inline;
+}
+
+.bstpb_body_area form label {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.bstpb_body_area form small {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+select#bstpb-image-position,
+.bstpb_body_area input[type="color"] {
+  width: 98px;
+  height: 44px;
+}
+.bstpb_body_area form input[type="submit"] {
+  margin-top: 30px;
+}
+select#bstpb-image-position,
+.bstpb_body_area input[type="color"] {
+  margin-bottom: 30px;
+}
+
+.bstpb_body_area input[type="radio"] {
+  display: -webkit-inline-box;
+}
+
+.bstpb_title_design {
+  font-size: 20px;
+  padding-left: 11px;
+  margin-left: 3px;
+}
